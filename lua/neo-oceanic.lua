@@ -162,7 +162,7 @@ local syntaxes = {
 
 
   DiffAdd = {fg=base.green, bg=face.none};
-  DiffChange = {fg=base.blue, bg=face.none};
+  DiffChange = {fg=base.white, bg=bright.red, attr==face.none};
   DiffDelete = {fg=base.red, bg=face.none};
   DiffText = {fg=base.blue, bg=base.black, attr=face.bold};
 
